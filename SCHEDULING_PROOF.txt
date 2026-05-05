@@ -1,7 +1,7 @@
 Used cron on macOS.
 
 Cron line:
-0 21 * * * /usr/bin/python3 "/Users/okerekeogechukwu/Documents/week 15/daily_backup.py"
+*/5 * * * * /usr/bin/python3 "/Users/okerekeogechukwu/Documents/week 15/uptime_monitor.py"
 
-Scheduled time:
-Daily at 9:00 PM.
+Schedule:
+Runs every 5 minutes.
